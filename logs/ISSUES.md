@@ -1,0 +1,2 @@
+- ASHRAE DB II: no licence statement in repo; record Dryad licence manually (doi:10.6078/D1F671).
+- download step casas_office failed: ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\'zenodo.org\', port=443): Max retries exceeded with url: /records/15713496/files/officedata.zip?download=1 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7607ad0b87d0>: Failed to resolve \'zenodo.org\' ([Errno -2] Name or service not known)"))'))

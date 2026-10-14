@@ -1,0 +1,6 @@
+== casas_home
+== ashrae
+ISSUE: ASHRAE DB II: no licence statement in repo; record Dryad licence manually (doi:10.6078/D1F671).
+== bdg2
+bdg2 cleaned: [('chilledwater_cleaned.csv', 133), ('electricity_cleaned.csv', 134), ('gas_cleaned.csv', 133), ('hotwater_cleaned.csv', 133), ('irrigation_cleaned.csv', 132), ('solar_cleaned.csv', 131), ('steam_cleaned.csv', 133), ('water_cleaned.csv', 133)]
+FIN

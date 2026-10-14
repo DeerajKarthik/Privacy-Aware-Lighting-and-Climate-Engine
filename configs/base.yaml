@@ -1,0 +1,12 @@
+seed: 0
+features:
+  bin_minutes: 15
+  presence_hold_min: 15        # PIR hold time; sensitivity run over [0, 15, 30, 60]
+  outage_gap_hours: 24         # gap without ANY event longer than this => MASKED (missing), not "absent"
+  max_masked_frac_day: 0.5     # days with more masked bins than this are dropped
+  min_usable_days_site: 180    # offices; homes use min_usable_days_home
+  min_usable_days_home: 50     # DECISION D006 (homes are short recordings)
+splits: {train: 0.70, val: 0.15, test: 0.15, gap_days: 7}
+carbon:
+  grid_factor_kg_per_kwh: null  # TO VERIFY online (CEA CO2 baseline database); unverified until set
+  fallback_range: [0.6, 0.9]
