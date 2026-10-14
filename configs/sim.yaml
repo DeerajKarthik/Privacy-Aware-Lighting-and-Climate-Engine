@@ -1,0 +1,60 @@
+# ALL VALUES ARE ASSUMED MODEL PARAMETERS (reduced-order, NOT measured). Ranges are plausible engineering ranges
+# (not individually cited; to be checked against ASHRAE Handbook/ISO before citing). Calibration (03_calibrate_sim.py) may adjust equipment/COP/schedule only.
+dt_s: 900
+zone:
+  floor_area_m2: 25.0          # open-plan cluster; 4 zones per office building, 1-2 per home
+  height_m: 3.0
+  Ca_J_per_K: 450000.0            # air + light furnishings; range 2e5-1e6
+  Cm_J_per_K: 2500000.0            # structural mass node; range 1e6-6e6
+  Rao_K_per_W: 0.022           # envelope+window to outdoors (UA~45 W/K); range 0.01-0.05
+  Ram_K_per_W: 0.010           # air<->mass coupling; range 0.005-0.02
+  infiltration_ach0: 0.3       # base air changes per hour
+  infiltration_k_ach_per_K: 0.01  # added ACH per K of |To-Ta| (outdoor-temperature-driven)
+  solar_frac_air: 0.3          # fraction of solar gain to air node (rest to mass)
+  internal_frac_mass: 0.3      # radiant fraction of internal gains to mass node
+window:
+  area_frac_of_floor: 0.16     # window area / floor area
+  shgc: 0.40
+  shading_factor: 0.7
+  azimuth_deg: 180             # south-facing (northern hemisphere)
+  tilt_deg: 90
+people:
+  sensible_w_per_met: 62.7     # 0.6 * 58.15 W/m2 * 1.8 m2 -> 75 W at 1.2 met (range 70-100 W)
+  met_office: 1.2
+  capacity_per_zone: 4
+  people_per_active_sensor: 1.0
+equipment:
+  w_per_m2_occupied: 10.0      # plug loads, range 5-20
+  w_per_m2_standby: 2.5
+ac:
+  mode: cooling_only           # ASSUMPTION: Surat is cooling dominated, heating disabled
+  Qmax_W: 4500.0
+  deadband_K: 0.5
+  cop_ref: 3.6
+  cop_t_ref_C: 35.0
+  cop_slope_per_K: 0.06
+  cop_floor: 2.0
+  part_load_gain: 0.15         # inverter: COP multiplier 1 + gain*(1-PLR)
+  fan_standby_W: 20.0
+  setpoint_range_C: [22, 30]
+  setback_C: 28.0
+  setback_after_min: 30
+lighting:
+  luminous_efficacy_lm_per_W_solar: 110.0   # for E_ext = GHI * efficacy (configurable)
+  daylight_factor: 0.03        # range 0.02-0.04
+  df_window_gradient: 0.5      # DF multiplier at back of zone relative to window side (mean DF used = avg)
+  pmax_w_per_m2: 9.0
+  led_lm_per_W: 110.0
+  utilisation_factor: 0.55
+  driver_loss_at_low_dim: 0.15 # P multiplier d*(1+loss*(1-d))
+  cct_penalty_per_2500K: 0.05  # g(c)=1+k*|c-4000|/2500 (ASSUMPTION)
+  cct_range_K: [2700, 6500]
+  cct_step_K: 400
+  dim_step: 0.1
+  min_egress_lux_occupied: 50.0
+  task_lux_floor: 300.0
+  flicker_pwm_hz: 2000         # FIXED flicker-safe constant (>=1 kHz); NOT optimised
+  standby_w_per_m2: 0.3
+location:
+  surat: {lat: 21.17, lon: 72.83, tz: Asia/Kolkata, altitude_m: 13}
+  delhi: {lat: 28.61, lon: 77.21, tz: Asia/Kolkata, altitude_m: 216}

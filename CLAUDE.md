@@ -20,4 +20,4 @@ Privacy-Aware Lighting And Climate Engine. Course: AI for Sustainability, SVNIT 
 - (later stages 03..10 per master prompt)
 
 ## Current phase
-Phase 2 — SIMULATOR (next)
+Phase 3 — PREFERENCE MODELS (next)
