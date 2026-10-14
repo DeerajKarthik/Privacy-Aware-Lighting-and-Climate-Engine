@@ -1,0 +1,13 @@
+# Figure inventory (captions suggested; numbers shown)
+- F1_architecture: data -> DP-FL -> preferences -> MPC -> APF -> logs -> adversary.
+- F2_eda_presence: hour-of-day mean presence per site (not hold-time sensitive: hold=15 min).
+- F3_sim_validation: weekday load shape and annual electricity (B1) vs BDG2 10th–90th percentile band.
+- F4_forecast_vs_eps: AUROC and Brier vs eps_train; dashed = non-private B2/B3/B4. (eps=0.5 is 1 seed.)
+- F5_pareto_energy_comfort: carbon vs discomfort per configuration, colour = actuation leakage L (actuation+meter adversary); only configs with adversary runs are coloured.
+- F6_pareto_privacy: leakage vs eps_act and vs energy saving (note: saving is negative for APF-on configs).
+- F7_granularity_ladder: forecast AUROC vs MIA AUC for rungs R1, R2, R3(eps=4,1); MIA ≈ chance for all.
+- F8_ablations: energy and comfort for eps_act 8/2/0.5, APF off, personalisation off (95 % bootstrap CIs).
+- F9_seasonal_timeseries: ac1, seed 0, default PALACE, days 2–3 of each season's week: lux, setpoint/air temperature, power (+ presence shading).
+- F10_attacks_roc: MIA ROC (left; averaged over sites, seed 0); right panel empty (actuation-adversary ROC not exported — only AUROC in actuation_adversary.csv).
+- F11_net_sustainability: cumulative net electricity vs B1 minus one-off training+comms energy; APF-off positive, APF-on negative.
+- F12_robustness: PALACE default under ±30 % simulator perturbation (energy, comfort).

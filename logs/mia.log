@@ -1,0 +1,11 @@
+                auc  tpr_at_1fpr
+method   eps                    
+central  inf  0.526        0.029
+dpfedavg 0.5  0.534        0.031
+         2.0  0.533        0.035
+         8.0  0.524        0.026
+dpfedper 0.5  0.531        0.052
+         2.0  0.515        0.039
+         8.0  0.515        0.031
+fedavg   inf  0.510        0.023
+local    inf  0.550        0.044

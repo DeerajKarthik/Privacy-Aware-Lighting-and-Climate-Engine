@@ -1,3 +1,4 @@
 - ASHRAE DB II: no licence statement in repo; record Dryad licence manually (doi:10.6078/D1F671).
 - download step casas_office failed: ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\'zenodo.org\', port=443): Max retries exceeded with url: /records/15713496/files/officedata.zip?download=1 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7607ad0b87d0>: Failed to resolve \'zenodo.org\' ([Errno -2] Name or service not known)"))'))
 - Grid emission factor 0.727 kgCO2/kWh (CEA v20.0 FY2023-24) taken from a secondary listing; primary CEA PDFs inaccessible (login wall); later CEA versions revised it. Reported as 'unverified' with +-30% band (0.51-0.95, covering the 0.6-0.9 fallback range). Open-Meteo licence/terms text also not yet read from source.
+- reference NOT verified (left out of references_verified.bib): encryptedhvac2023 arXiv:2312.05183 (arXiv API rate-limited/timeout)

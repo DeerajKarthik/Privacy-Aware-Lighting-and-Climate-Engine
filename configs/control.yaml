@@ -1,0 +1,12 @@
+# Controller settings. Weights frozen after a validation sweep (see DECISIONS D020). Cost terms are each normalised to [0,1].
+horizon: 8
+cem: {population: 256, elite_frac: 0.10, iterations: 3, smoothing: 0.5}
+weights: {w_e: 2.0, w_c: 1.0, w_s: 0.1}     # carbon-weighted energy, expected discomfort, smoothness
+weather_forecast: {sigma_To_C: 1.0, rel_sigma_solar: 0.10}   # observed + noise (documented sigma)
+feedback: {vote_prob_per_hour: 0.3, eps_fb: 2.0}              # SYNTHETIC occupants; RR-privatised votes
+seasons:                  # one representative week per season, Surat weather year 2019 (fast mode)
+  summer:  ["2019-05-06", 7]
+  monsoon: ["2019-08-05", 7]
+  winter:  ["2019-12-02", 7]
+weather_year: 2019
+apf: {eps_grid: [0.5, 2, 8, .inf]}

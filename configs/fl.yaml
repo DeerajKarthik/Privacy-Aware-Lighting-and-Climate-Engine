@@ -1,0 +1,24 @@
+# Federated / DP forecaster settings. Privacy unit = ONE SITE-DAY RECORD (own day's labels + 48 h input context).
+clients:
+  office: [ac1, ac3, ac4, scone, tokyo, museum, stair01, stair02, stair03, stair04]
+  home: [aruba, tulum1, tulum2, milan, cairo]
+data:
+  context_bins: 192            # 48 h
+  horizon_bins: 8              # 2 h
+  max_train_days_per_client: 600   # most recent usable train days (balances tokyo's 4011 days); DECISION D016
+  max_eval_days: 200               # most recent val/test days per site
+  min_eval_test_days: 10
+model: {channels: 32, kernel: 3, dilations: [1, 4, 16, 64]}
+train:
+  rounds: 15
+  local_epochs: 1
+  batch_days: 16               # expected batch (Poisson sample rate = batch/N)
+  lr: 0.05
+  momentum: 0.9
+  max_grad_norm: 0.25          # C chosen on VALIDATION AUROC (sweep C in {0.25,1,4} at eps=2, seed 0, re-run after causal fix: 0.906 / 0.901 / 0.878)
+  focal_weight: 0.25
+  focal_gamma: 2.0
+dp:
+  eps_grid: [0.5, 1, 2, 4, 8, .inf]
+  delta_rule: "1/(10*N_train_days_client)"
+seeds: [0, 1, 2, 3, 4]

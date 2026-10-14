@@ -49,7 +49,7 @@ lighting:
   driver_loss_at_low_dim: 0.15 # P multiplier d*(1+loss*(1-d))
   cct_penalty_per_2500K: 0.05  # g(c)=1+k*|c-4000|/2500 (ASSUMPTION)
   cct_range_K: [2700, 6500]
-  cct_step_K: 400
+  cct_step_K: 380  # 11 evenly spaced values 2700..6500 (spec said 400 K, which cannot yield 11 values ending at 6500)
   dim_step: 0.1
   min_egress_lux_occupied: 50.0
   task_lux_floor: 300.0

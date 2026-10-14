@@ -1,0 +1,2126 @@
+{
+ "forecast.central.epsinf.auroc": {
+  "value": 0.8981394319902749,
+  "ci_low": 0.8771206356182714,
+  "ci_high": 0.9165317105982118,
+  "n_seeds": 5,
+  "source_file": "results/tables/T3_forecaster.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "forecast.dpfedavg.eps0.5.auroc": {
+  "value": 0.8556505756577657,
+  "ci_low": 0.8084271521146806,
+  "ci_high": 0.8918605272824982,
+  "n_seeds": 1,
+  "source_file": "results/tables/T3_forecaster.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "forecast.dpfedavg.eps2.auroc": {
+  "value": 0.8708512637992463,
+  "ci_low": 0.8447845459129882,
+  "ci_high": 0.8931431293475655,
+  "n_seeds": 3,
+  "source_file": "results/tables/T3_forecaster.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "forecast.dpfedavg.eps8.auroc": {
+  "value": 0.8763508617846549,
+  "ci_low": 0.8499051643169389,
+  "ci_high": 0.8987916586901092,
+  "n_seeds": 3,
+  "source_file": "results/tables/T3_forecaster.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "forecast.dpfedper.eps0.5.auroc": {
+  "value": 0.6909952160569666,
+  "ci_low": 0.6497364540599745,
+  "ci_high": 0.7341315926579848,
+  "n_seeds": 1,
+  "source_file": "results/tables/T3_forecaster.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "forecast.dpfedper.eps2.auroc": {
+  "value": 0.8093834580193255,
+  "ci_low": 0.7802654252447695,
+  "ci_high": 0.8352254857205901,
+  "n_seeds": 3,
+  "source_file": "results/tables/T3_forecaster.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "forecast.dpfedper.eps8.auroc": {
+  "value": 0.8579838513833338,
+  "ci_low": 0.8311361898543123,
+  "ci_high": 0.8812686243837115,
+  "n_seeds": 3,
+  "source_file": "results/tables/T3_forecaster.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "forecast.fedavg.epsinf.auroc": {
+  "value": 0.888082241869148,
+  "ci_low": 0.8678009256223856,
+  "ci_high": 0.9061209107946593,
+  "n_seeds": 5,
+  "source_file": "results/tables/T3_forecaster.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "forecast.local.epsinf.auroc": {
+  "value": 0.8976417444457189,
+  "ci_low": 0.8764283115540921,
+  "ci_high": 0.9162240616007489,
+  "n_seeds": 5,
+  "source_file": "results/tables/T3_forecaster.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "forecast.baseline.persistence.auroc": {
+  "value": 0.7725795860823155,
+  "ci_low": null,
+  "ci_high": null,
+  "n_seeds": 9,
+  "source_file": "results/runs/occupancy/*central*s0*.json",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "forecast.baseline.profile.auroc": {
+  "value": 0.8294417689236098,
+  "ci_low": null,
+  "ci_high": null,
+  "n_seeds": 9,
+  "source_file": "results/runs/occupancy/*central*s0*.json",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "forecast.baseline.logreg.auroc": {
+  "value": 0.8772214514948947,
+  "ci_low": null,
+  "ci_high": null,
+  "n_seeds": 9,
+  "source_file": "results/runs/occupancy/*central*s0*.json",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B0.ctrl_kwh_m2_day": {
+  "value": 0.1618602223184425,
+  "ci_low": 0.15692458403415813,
+  "ci_high": 0.166584720996841,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B0.total_kwh_m2_day": {
+  "value": 0.2780854207311409,
+  "ci_low": 0.26623431767024786,
+  "ci_high": 0.2908259990168368,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B0.comfort_score": {
+  "value": 0.5286101574729452,
+  "ci_low": 0.5087261784933607,
+  "ci_high": 0.5490407883003,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B0.d_th": {
+  "value": 0.30765724058892896,
+  "ci_low": 0.280806048115429,
+  "ci_high": 0.3333988017537208,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B0.d_vis": {
+  "value": 0.6351224444651807,
+  "ci_low": 0.610415276379262,
+  "ci_high": 0.6582878680173179,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B0.pmv_discomfort_h": {
+  "value": 22.24074074074074,
+  "ci_low": 16.59259259259259,
+  "ci_high": 28.59270833333333,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B0.lux_lt300_frac": {
+  "value": 0.23794817728881718,
+  "ci_low": 0.1942775324359636,
+  "ci_high": 0.2827393248912803,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B0.peak_kw": {
+  "value": 1.2068715213377486,
+  "ci_low": 1.1441041366782654,
+  "ci_high": 1.2695962977887738,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B0.ctrl_energy_saving_vs_B0": {
+  "value": 0.0,
+  "ci_low": 0.0,
+  "ci_high": 0.0,
+  "n_seeds": 3,
+  "source_file": "T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B0.ctrl_energy_saving_vs_B1": {
+  "value": -0.5188452536993489,
+  "ci_low": -0.6411031679620717,
+  "ci_high": -0.39569361428655997,
+  "n_seeds": 3,
+  "source_file": "T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B1.ctrl_kwh_m2_day": {
+  "value": 0.12104745906932056,
+  "ci_low": 0.10827959981713128,
+  "ci_high": 0.1348818083545375,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B1.total_kwh_m2_day": {
+  "value": 0.23727265748201892,
+  "ci_low": 0.21555029984228538,
+  "ci_high": 0.2608776882731696,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B1.comfort_score": {
+  "value": 0.7289892667156886,
+  "ci_low": 0.7074020620813609,
+  "ci_high": 0.7507455031894911,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B1.d_th": {
+  "value": 0.16242838856883252,
+  "ci_low": 0.1361286049241432,
+  "ci_high": 0.18966479664365227,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B1.d_vis": {
+  "value": 0.3795930779997896,
+  "ci_low": 0.3536816495854234,
+  "ci_high": 0.4053258632133365,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B1.pmv_discomfort_h": {
+  "value": 0.0,
+  "ci_low": 0.0,
+  "ci_high": 0.0,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B1.lux_lt300_frac": {
+  "value": 0.0,
+  "ci_low": 0.0,
+  "ci_high": 0.0,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B1.peak_kw": {
+  "value": 1.084006546934156,
+  "ci_low": 1.0617655864436875,
+  "ci_high": 1.105026894543127,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B1.ctrl_energy_saving_vs_B0": {
+  "value": 0.26272597462138064,
+  "ci_low": 0.1866048429801595,
+  "ci_high": 0.3339386086088559,
+  "n_seeds": 3,
+  "source_file": "T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B1.ctrl_energy_saving_vs_B1": {
+  "value": 0.0,
+  "ci_low": 0.0,
+  "ci_high": 0.0,
+  "n_seeds": 3,
+  "source_file": "T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B2.ctrl_kwh_m2_day": {
+  "value": 0.10448042011383923,
+  "ci_low": 0.08942473846993226,
+  "ci_high": 0.1203749965987937,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B2.total_kwh_m2_day": {
+  "value": 0.2207056185265376,
+  "ci_low": 0.1964093062560989,
+  "ci_high": 0.24614703536468804,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B2.comfort_score": {
+  "value": 0.6982896691500592,
+  "ci_low": 0.6781740747499353,
+  "ci_high": 0.7180435153918122,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B2.d_th": {
+  "value": 0.2730122439753923,
+  "ci_low": 0.2427501959383173,
+  "ci_high": 0.3035326807863633,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B2.d_vis": {
+  "value": 0.33040841772448964,
+  "ci_low": 0.30748692720739,
+  "ci_high": 0.35435825343911104,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B2.pmv_discomfort_h": {
+  "value": 29.541666666666668,
+  "ci_low": 24.916666666666668,
+  "ci_high": 34.53715277777778,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B2.lux_lt300_frac": {
+  "value": 0.00028929481423074955,
+  "ci_low": 0.0,
+  "ci_high": 0.0007866628702426061,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B2.peak_kw": {
+  "value": 1.2313860113905974,
+  "ci_low": 1.192899579146898,
+  "ci_high": 1.2694611661498274,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B2.ctrl_energy_saving_vs_B0": {
+  "value": 0.36806300319796703,
+  "ci_low": 0.2767074419343245,
+  "ci_high": 0.4537446517115727,
+  "n_seeds": 3,
+  "source_file": "T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B2.ctrl_energy_saving_vs_B1": {
+  "value": 0.18189700762135438,
+  "ci_low": 0.14456187922404604,
+  "ci_high": 0.22067692819222054,
+  "n_seeds": 3,
+  "source_file": "T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B3.ctrl_kwh_m2_day": {
+  "value": 0.1063554668412579,
+  "ci_low": 0.09119816377339435,
+  "ci_high": 0.12211056267513196,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B3.total_kwh_m2_day": {
+  "value": 0.22258066525395634,
+  "ci_low": 0.19799991666138506,
+  "ci_high": 0.2479230812004796,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B3.comfort_score": {
+  "value": 0.7063075122377848,
+  "ci_low": 0.6860628482923843,
+  "ci_high": 0.7273006863103586,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B3.d_th": {
+  "value": 0.25722732686833544,
+  "ci_low": 0.2258559731757659,
+  "ci_high": 0.28839113783101117,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B3.d_vis": {
+  "value": 0.3301576486560951,
+  "ci_low": 0.3065298183137817,
+  "ci_high": 0.3535561340853809,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B3.pmv_discomfort_h": {
+  "value": 28.541666666666668,
+  "ci_low": 23.74525462962963,
+  "ci_high": 33.5787037037037,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B3.lux_lt300_frac": {
+  "value": 0.00015055706112616682,
+  "ci_low": 0.0,
+  "ci_high": 0.0004516711833785005,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B3.peak_kw": {
+  "value": 1.2291612793501614,
+  "ci_low": 1.1971977762996735,
+  "ci_high": 1.2614016239604164,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B3.ctrl_energy_saving_vs_B0": {
+  "value": 0.35615331182133303,
+  "ci_low": 0.263673914685061,
+  "ci_high": 0.4421008959279565,
+  "n_seeds": 3,
+  "source_file": "T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B3.ctrl_energy_saving_vs_B1": {
+  "value": 0.16446832501296796,
+  "ci_low": 0.1268043023290963,
+  "ci_high": 0.20383248329983913,
+  "n_seeds": 3,
+  "source_file": "T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B4.ctrl_kwh_m2_day": {
+  "value": 0.10323523657345224,
+  "ci_low": 0.08926251036800645,
+  "ci_high": 0.11780410910454478,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B4.total_kwh_m2_day": {
+  "value": 0.21946043498615067,
+  "ci_low": 0.19627190053604537,
+  "ci_high": 0.24391186787306257,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B4.comfort_score": {
+  "value": 0.7007375910721039,
+  "ci_low": 0.6828524235455511,
+  "ci_high": 0.7186970765438531,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B4.d_th": {
+  "value": 0.2686890054397869,
+  "ci_low": 0.2436316257552515,
+  "ci_high": 0.2944213049662194,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B4.d_vis": {
+  "value": 0.32983581241600524,
+  "ci_low": 0.30646037755658584,
+  "ci_high": 0.35329505835963354,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B4.pmv_discomfort_h": {
+  "value": 31.21759259259259,
+  "ci_low": 26.04155092592593,
+  "ci_high": 36.64363425925926,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B4.lux_lt300_frac": {
+  "value": 0.0,
+  "ci_low": 0.0,
+  "ci_high": 0.0,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B4.peak_kw": {
+  "value": 1.2594860959367742,
+  "ci_low": 1.223463544992478,
+  "ci_high": 1.2940233886901418,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B4.ctrl_energy_saving_vs_B0": {
+  "value": 0.37415073031982926,
+  "ci_low": 0.29065160550054314,
+  "ci_high": 0.452389495643834,
+  "n_seeds": 3,
+  "source_file": "T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B4.ctrl_energy_saving_vs_B1": {
+  "value": 0.17898037271688313,
+  "ci_low": 0.14688475790121225,
+  "ci_high": 0.21158403035059256,
+  "n_seeds": 3,
+  "source_file": "T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B5_e0.5.ctrl_kwh_m2_day": {
+  "value": 0.10602906211759514,
+  "ci_low": 0.08482933974566292,
+  "ci_high": 0.12883907310122422,
+  "n_seeds": 1,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B5_e0.5.total_kwh_m2_day": {
+  "value": 0.22278501449854757,
+  "ci_low": 0.18732229946456103,
+  "ci_high": 0.2612995445164614,
+  "n_seeds": 1,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B5_e0.5.comfort_score": {
+  "value": 0.7031164052683696,
+  "ci_low": 0.6747451889892786,
+  "ci_high": 0.7315037087341814,
+  "n_seeds": 1,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B5_e0.5.d_th": {
+  "value": 0.239602911271248,
+  "ci_low": 0.20590501102960887,
+  "ci_high": 0.2727756638895984,
+  "n_seeds": 1,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B5_e0.5.d_vis": {
+  "value": 0.35416427819201274,
+  "ci_low": 0.31388422314914194,
+  "ci_high": 0.39491983514234313,
+  "n_seeds": 1,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B5_e0.5.pmv_discomfort_h": {
+  "value": 28.77777777777778,
+  "ci_low": 20.735416666666666,
+  "ci_high": 37.81979166666666,
+  "n_seeds": 1,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B5_e0.5.lux_lt300_frac": {
+  "value": 0.0,
+  "ci_low": 0.0,
+  "ci_high": 0.0,
+  "n_seeds": 1,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B5_e0.5.peak_kw": {
+  "value": 1.3059946119779953,
+  "ci_low": 1.2443476070965944,
+  "ci_high": 1.3702167932795235,
+  "n_seeds": 1,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B5_e0.5.ctrl_energy_saving_vs_B0": {
+  "value": 0.35204106404166435,
+  "ci_low": 0.2155318139645127,
+  "ci_high": 0.4734975007323168,
+  "n_seeds": 1,
+  "source_file": "T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B5_e0.5.ctrl_energy_saving_vs_B1": {
+  "value": 0.14780408308405957,
+  "ci_low": 0.10425715650926827,
+  "ci_high": 0.19352367658145514,
+  "n_seeds": 1,
+  "source_file": "T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B5_e2.ctrl_kwh_m2_day": {
+  "value": 0.10446764599888915,
+  "ci_low": 0.09099498840225811,
+  "ci_high": 0.11865631838881652,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B5_e2.total_kwh_m2_day": {
+  "value": 0.22069284441158754,
+  "ci_low": 0.19809306857411416,
+  "ci_high": 0.24454974346728262,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B5_e2.comfort_score": {
+  "value": 0.7082019051415515,
+  "ci_low": 0.690662750589343,
+  "ci_high": 0.7253993248042478,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B5_e2.d_th": {
+  "value": 0.2540347973755081,
+  "ci_low": 0.23193207393497223,
+  "ci_high": 0.2770481889310796,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B5_e2.d_vis": {
+  "value": 0.329561392341389,
+  "ci_low": 0.3066848246887265,
+  "ci_high": 0.3533415971814499,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B5_e2.pmv_discomfort_h": {
+  "value": 29.97685185185185,
+  "ci_low": 24.77777777777778,
+  "ci_high": 35.611111111111114,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B5_e2.lux_lt300_frac": {
+  "value": 0.0,
+  "ci_low": 0.0,
+  "ci_high": 0.0,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B5_e2.peak_kw": {
+  "value": 1.2962652688494827,
+  "ci_low": 1.266588731500627,
+  "ci_high": 1.3250152493205465,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B5_e2.ctrl_energy_saving_vs_B0": {
+  "value": 0.36556378422581254,
+  "ci_low": 0.28316813533482516,
+  "ci_high": 0.44215326467249155,
+  "n_seeds": 3,
+  "source_file": "T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B5_e2.ctrl_energy_saving_vs_B1": {
+  "value": 0.16291072345163857,
+  "ci_low": 0.13420896076668298,
+  "ci_high": 0.1919323529204208,
+  "n_seeds": 3,
+  "source_file": "T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B5_e8.ctrl_kwh_m2_day": {
+  "value": 0.10384240369800134,
+  "ci_low": 0.09063477874795492,
+  "ci_high": 0.11824128592605924,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B5_e8.total_kwh_m2_day": {
+  "value": 0.22006760211069978,
+  "ci_low": 0.19741959011463708,
+  "ci_high": 0.24442608025727758,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B5_e8.comfort_score": {
+  "value": 0.7057613226718251,
+  "ci_low": 0.6875188540497545,
+  "ci_high": 0.7236037975036705,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B5_e8.d_th": {
+  "value": 0.2587104370151966,
+  "ci_low": 0.23522969927855597,
+  "ci_high": 0.28294642327558095,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B5_e8.d_vis": {
+  "value": 0.32976691764115323,
+  "ci_low": 0.3067638594997701,
+  "ci_high": 0.3533088219102955,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B5_e8.pmv_discomfort_h": {
+  "value": 30.800925925925927,
+  "ci_low": 25.434953703703705,
+  "ci_high": 36.45381944444444,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B5_e8.lux_lt300_frac": {
+  "value": 0.0,
+  "ci_low": 0.0,
+  "ci_high": 0.0,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B5_e8.peak_kw": {
+  "value": 1.3020512790357528,
+  "ci_low": 1.272465069666557,
+  "ci_high": 1.330982223265507,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B5_e8.ctrl_energy_saving_vs_B0": {
+  "value": 0.36955571552839406,
+  "ci_low": 0.2884046875703564,
+  "ci_high": 0.44558603538924335,
+  "n_seeds": 3,
+  "source_file": "T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.B5_e8.ctrl_energy_saving_vs_B1": {
+  "value": 0.1680373241124581,
+  "ci_low": 0.139332522333239,
+  "ci_high": 0.1976288937808412,
+  "n_seeds": 3,
+  "source_file": "T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_apf_off.ctrl_kwh_m2_day": {
+  "value": 0.09920473369128108,
+  "ci_low": 0.08632546419261551,
+  "ci_high": 0.112843921406886,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_apf_off.total_kwh_m2_day": {
+  "value": 0.21542993210397945,
+  "ci_low": 0.19373412350466768,
+  "ci_high": 0.23879325166179316,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_apf_off.comfort_score": {
+  "value": 0.7027568627423141,
+  "ci_low": 0.6798240383573345,
+  "ci_high": 0.7246366703587793,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_apf_off.d_th": {
+  "value": 0.2708688869621994,
+  "ci_low": 0.23845482942917517,
+  "ci_high": 0.3040797152679294,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_apf_off.d_vis": {
+  "value": 0.3236173875531727,
+  "ci_low": 0.3000568580613644,
+  "ci_high": 0.34807863487156443,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_apf_off.pmv_discomfort_h": {
+  "value": 23.00462962962963,
+  "ci_low": 19.76377314814815,
+  "ci_high": 26.62974537037037,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_apf_off.lux_lt300_frac": {
+  "value": 0.0007338280253653527,
+  "ci_low": 8.301570801570802e-05,
+  "ci_high": 0.0016284555971207181,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_apf_off.peak_kw": {
+  "value": 1.2393202201985003,
+  "ci_low": 1.2005355264660464,
+  "ci_high": 1.2778574770089381,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_apf_off.ctrl_energy_saving_vs_B0": {
+  "value": 0.3993628123198234,
+  "ci_low": 0.3229767454475085,
+  "ci_high": 0.4704956841155698,
+  "n_seeds": 3,
+  "source_file": "T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_apf_off.ctrl_energy_saving_vs_B1": {
+  "value": 0.20615840852072698,
+  "ci_low": 0.17675486732146353,
+  "ci_high": 0.2369175421285807,
+  "n_seeds": 3,
+  "source_file": "T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_e0.5_a8.ctrl_kwh_m2_day": {
+  "value": 0.22786031649874078,
+  "ci_low": 0.21745283774128166,
+  "ci_high": 0.23862933339770864,
+  "n_seeds": 1,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_e0.5_a8.total_kwh_m2_day": {
+  "value": 0.3446162688796932,
+  "ci_low": 0.32098695282605044,
+  "ci_high": 0.369206178445269,
+  "n_seeds": 1,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_e0.5_a8.comfort_score": {
+  "value": 0.6029323192840432,
+  "ci_low": 0.5739670482686646,
+  "ci_high": 0.6294404505266173,
+  "n_seeds": 1,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_e0.5_a8.d_th": {
+  "value": 0.2901597134783654,
+  "ci_low": 0.2552945120382336,
+  "ci_high": 0.33015377160547354,
+  "n_seeds": 1,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_e0.5_a8.d_vis": {
+  "value": 0.503975647953548,
+  "ci_low": 0.4751536860935754,
+  "ci_high": 0.5323482207395114,
+  "n_seeds": 1,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_e0.5_a8.pmv_discomfort_h": {
+  "value": 26.61111111111111,
+  "ci_low": 19.90277777777778,
+  "ci_high": 33.875,
+  "n_seeds": 1,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_e0.5_a8.lux_lt300_frac": {
+  "value": 0.062427316518479645,
+  "ci_low": 0.04095926500552108,
+  "ci_high": 0.0864560044192514,
+  "n_seeds": 1,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_e0.5_a8.peak_kw": {
+  "value": 1.4568112036258754,
+  "ci_low": 1.3869727040071083,
+  "ci_high": 1.5199341611006687,
+  "n_seeds": 1,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_e0.5_a8.ctrl_energy_saving_vs_B0": {
+  "value": -0.4120929405910448,
+  "ci_low": -0.45376702800463187,
+  "ci_high": -0.37519349000344965,
+  "n_seeds": 1,
+  "source_file": "T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_e0.5_a8.ctrl_energy_saving_vs_B1": {
+  "value": -1.0760939674971515,
+  "ci_low": -1.3345464839511845,
+  "ci_high": -0.8255573870406188,
+  "n_seeds": 1,
+  "source_file": "T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_e2_a0.5.ctrl_kwh_m2_day": {
+  "value": 0.2565260024779803,
+  "ci_low": 0.2511491607674754,
+  "ci_high": 0.2617484469173024,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_e2_a0.5.total_kwh_m2_day": {
+  "value": 0.37275120089067876,
+  "ci_low": 0.36000696951403816,
+  "ci_high": 0.38607183416919005,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_e2_a0.5.comfort_score": {
+  "value": 0.5972630563430456,
+  "ci_low": 0.5833137061395011,
+  "ci_high": 0.6108960617817885,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_e2_a0.5.d_th": {
+  "value": 0.24364255463122259,
+  "ci_low": 0.22435020770214592,
+  "ci_high": 0.26406771229705445,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_e2_a0.5.d_vis": {
+  "value": 0.5618313326826864,
+  "ci_low": 0.546688679848584,
+  "ci_high": 0.5760664761640433,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_e2_a0.5.pmv_discomfort_h": {
+  "value": 23.23611111111111,
+  "ci_low": 19.300694444444446,
+  "ci_high": 27.528009259259257,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_e2_a0.5.lux_lt300_frac": {
+  "value": 0.125616772796563,
+  "ci_low": 0.10333387137893081,
+  "ci_high": 0.14843335985089753,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_e2_a0.5.peak_kw": {
+  "value": 1.4617971292043788,
+  "ci_low": 1.4149691082625144,
+  "ci_high": 1.5056868422049978,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_e2_a0.5.ctrl_energy_saving_vs_B0": {
+  "value": -0.5917675031956654,
+  "ci_low": -0.6118665815071639,
+  "ci_high": -0.5726815855244767,
+  "n_seeds": 3,
+  "source_file": "T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_e2_a0.5.ctrl_energy_saving_vs_B1": {
+  "value": -1.4254216885875375,
+  "ci_low": -1.6366796483010289,
+  "ci_high": -1.2179733034046427,
+  "n_seeds": 3,
+  "source_file": "T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_e2_a2.ctrl_kwh_m2_day": {
+  "value": 0.25089481426988847,
+  "ci_low": 0.24536008352684105,
+  "ci_high": 0.2563304911611376,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_e2_a2.total_kwh_m2_day": {
+  "value": 0.3671200126825869,
+  "ci_low": 0.35358769012655755,
+  "ci_high": 0.3809314212032992,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_e2_a2.comfort_score": {
+  "value": 0.6018353764911879,
+  "ci_low": 0.5882521107615432,
+  "ci_high": 0.6151811142958481,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_e2_a2.d_th": {
+  "value": 0.24938378323746363,
+  "ci_low": 0.23011360477640436,
+  "ci_high": 0.2692855960271886,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_e2_a2.d_vis": {
+  "value": 0.5469454637801606,
+  "ci_low": 0.5315715548069413,
+  "ci_high": 0.5614317376852954,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_e2_a2.pmv_discomfort_h": {
+  "value": 24.12037037037037,
+  "ci_low": 19.944328703703704,
+  "ci_high": 28.523263888888888,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_e2_a2.lux_lt300_frac": {
+  "value": 0.11404356861270448,
+  "ci_low": 0.09314229974157806,
+  "ci_high": 0.1359107262332417,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_e2_a2.peak_kw": {
+  "value": 1.4396426977748835,
+  "ci_low": 1.3944117374535758,
+  "ci_high": 1.484627668268736,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_e2_a2.ctrl_energy_saving_vs_B0": {
+  "value": -0.5565526578783883,
+  "ci_low": -0.576883127533747,
+  "ci_high": -0.5372354649797206,
+  "n_seeds": 3,
+  "source_file": "T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_e2_a2.ctrl_energy_saving_vs_B1": {
+  "value": -1.368005770660551,
+  "ci_low": -1.5717185865965235,
+  "ci_high": -1.1671166363937613,
+  "n_seeds": 3,
+  "source_file": "T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_e2_a8.ctrl_kwh_m2_day": {
+  "value": 0.22607090825797016,
+  "ci_low": 0.2196235973946096,
+  "ci_high": 0.2326154972024324,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_e2_a8.total_kwh_m2_day": {
+  "value": 0.3422961066706686,
+  "ci_low": 0.3275701730534431,
+  "ci_high": 0.3575244779859987,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_e2_a8.comfort_score": {
+  "value": 0.6183096211767904,
+  "ci_low": 0.6028917856984676,
+  "ci_high": 0.633180403350161,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_e2_a8.d_th": {
+  "value": 0.2647067560158763,
+  "ci_low": 0.2454242997291223,
+  "ci_high": 0.28491258403415537,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_e2_a8.d_vis": {
+  "value": 0.49867400163054293,
+  "ci_low": 0.48242865271798274,
+  "ci_high": 0.5146806955635603,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_e2_a8.pmv_discomfort_h": {
+  "value": 25.47222222222222,
+  "ci_low": 21.25914351851852,
+  "ci_high": 29.86122685185185,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_e2_a8.lux_lt300_frac": {
+  "value": 0.07077921790353936,
+  "ci_low": 0.056993952734396315,
+  "ci_high": 0.08470192669211568,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_e2_a8.peak_kw": {
+  "value": 1.4461941223035255,
+  "ci_low": 1.4007217713846984,
+  "ci_high": 1.4916575290783247,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_e2_a8.ctrl_energy_saving_vs_B0": {
+  "value": -0.39973821750512384,
+  "ci_low": -0.42310836582335903,
+  "ci_high": -0.3784458948055319,
+  "n_seeds": 3,
+  "source_file": "T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_e2_a8.ctrl_energy_saving_vs_B1": {
+  "value": -1.1067708570658137,
+  "ci_low": -1.272502010899433,
+  "ci_high": -0.9440068155478519,
+  "n_seeds": 3,
+  "source_file": "T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_e8_a8.ctrl_kwh_m2_day": {
+  "value": 0.22386553595544362,
+  "ci_low": 0.21727952374598591,
+  "ci_high": 0.2305600900702644,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_e8_a8.total_kwh_m2_day": {
+  "value": 0.340090734368142,
+  "ci_low": 0.3250419027152712,
+  "ci_high": 0.3556688241797127,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_e8_a8.comfort_score": {
+  "value": 0.6165753400703294,
+  "ci_low": 0.6014232233418966,
+  "ci_high": 0.6315439445389974,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_e8_a8.d_th": {
+  "value": 0.26805167077438796,
+  "ci_low": 0.24826631036895624,
+  "ci_high": 0.288016610081871,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_e8_a8.d_vis": {
+  "value": 0.4987976490849533,
+  "ci_low": 0.48286540453399374,
+  "ci_high": 0.5147413839205742,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_e8_a8.pmv_discomfort_h": {
+  "value": 26.162037037037038,
+  "ci_low": 22.00451388888889,
+  "ci_high": 30.44930555555555,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_e8_a8.lux_lt300_frac": {
+  "value": 0.070832494998552,
+  "ci_low": 0.05713507686344085,
+  "ci_high": 0.08521730559600935,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_e8_a8.peak_kw": {
+  "value": 1.455178759848414,
+  "ci_low": 1.411138707334804,
+  "ci_high": 1.4981543364126368,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_e8_a8.ctrl_energy_saving_vs_B0": {
+  "value": -0.38613143804913685,
+  "ci_low": -0.41071230074292014,
+  "ci_high": -0.36353973096782327,
+  "n_seeds": 3,
+  "source_file": "T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_e8_a8.ctrl_energy_saving_vs_B1": {
+  "value": -1.0842168013182285,
+  "ci_low": -1.248453375275407,
+  "ci_high": -0.9237405939377911,
+  "n_seeds": 3,
+  "source_file": "T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_no_pers.ctrl_kwh_m2_day": {
+  "value": 0.22471567601709938,
+  "ci_low": 0.21817168366767167,
+  "ci_high": 0.23123226941976704,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_no_pers.total_kwh_m2_day": {
+  "value": 0.3409408744297978,
+  "ci_low": 0.3259547583550306,
+  "ci_high": 0.35632692542221106,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_no_pers.comfort_score": {
+  "value": 0.620052781126301,
+  "ci_low": 0.6054708704725025,
+  "ci_high": 0.6348159452197536,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_no_pers.d_th": {
+  "value": 0.2600110660523953,
+  "ci_low": 0.24005830237154313,
+  "ci_high": 0.2803989095785985,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_no_pers.d_vis": {
+  "value": 0.4998833716950027,
+  "ci_low": 0.48398733139816413,
+  "ci_high": 0.5155196093694592,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_no_pers.pmv_discomfort_h": {
+  "value": 25.203703703703702,
+  "ci_low": 21.162037037037038,
+  "ci_high": 29.40740740740741,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_no_pers.lux_lt300_frac": {
+  "value": 0.07016258965587382,
+  "ci_low": 0.056943143435572906,
+  "ci_high": 0.08424469536951965,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_no_pers.peak_kw": {
+  "value": 1.4392813721290565,
+  "ci_low": 1.401505713261518,
+  "ci_high": 1.4779726751130375,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_no_pers.ctrl_energy_saving_vs_B0": {
+  "value": -0.3913503442975696,
+  "ci_low": -0.4158262933166725,
+  "ci_high": -0.36905440832174785,
+  "n_seeds": 3,
+  "source_file": "T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_no_pers.ctrl_energy_saving_vs_B1": {
+  "value": -1.0908962227672543,
+  "ci_low": -1.2534784560362051,
+  "ci_high": -0.9322323697967957,
+  "n_seeds": 3,
+  "source_file": "T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_sim_minus30.ctrl_kwh_m2_day": {
+  "value": 0.2061587131222913,
+  "ci_low": 0.2006995224471952,
+  "ci_high": 0.21187630845584204,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_sim_minus30.total_kwh_m2_day": {
+  "value": 0.32238391153498974,
+  "ci_low": 0.3085956587976693,
+  "ci_high": 0.33723985027746717,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_sim_minus30.comfort_score": {
+  "value": 0.608876197539635,
+  "ci_low": 0.5947916190489714,
+  "ci_high": 0.6226570819082538,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_sim_minus30.d_th": {
+  "value": 0.2649670701801058,
+  "ci_low": 0.24702358252261813,
+  "ci_high": 0.2833284714043209,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_sim_minus30.d_vis": {
+  "value": 0.5172805347406242,
+  "ci_low": 0.5027378829661779,
+  "ci_high": 0.531683842293539,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_sim_minus30.pmv_discomfort_h": {
+  "value": 27.62962962962963,
+  "ci_low": 23.01388888888889,
+  "ci_high": 32.565046296296295,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_sim_minus30.lux_lt300_frac": {
+  "value": 0.0658193933685028,
+  "ci_low": 0.05208034002831125,
+  "ci_high": 0.07975634837881805,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_sim_minus30.peak_kw": {
+  "value": 1.0910974775141926,
+  "ci_low": 1.065218823433546,
+  "ci_high": 1.1175573593543267,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_sim_minus30.ctrl_energy_saving_vs_B0": {
+  "value": -0.2780175766785242,
+  "ci_low": -0.3014803979099944,
+  "ci_high": -0.2558888065480224,
+  "n_seeds": 3,
+  "source_file": "T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_sim_minus30.ctrl_energy_saving_vs_B1": {
+  "value": -0.9297312719773708,
+  "ci_low": -1.089611347853183,
+  "ci_high": -0.7738702193288851,
+  "n_seeds": 3,
+  "source_file": "T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_sim_plus30.ctrl_kwh_m2_day": {
+  "value": 0.26014071294685714,
+  "ci_low": 0.2513686457471157,
+  "ci_high": 0.2688597683299894,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_sim_plus30.total_kwh_m2_day": {
+  "value": 0.3763659113595555,
+  "ci_low": 0.35996270563383875,
+  "ci_high": 0.3937049530903295,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_sim_plus30.comfort_score": {
+  "value": 0.6105618518827404,
+  "ci_low": 0.5945136656336882,
+  "ci_high": 0.6267341452508516,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_sim_plus30.d_th": {
+  "value": 0.31315641805473693,
+  "ci_low": 0.290985292990025,
+  "ci_high": 0.33566483969972055,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_sim_plus30.d_vis": {
+  "value": 0.4657198781797825,
+  "ci_low": 0.44772286363879865,
+  "ci_high": 0.48274926782160943,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_sim_plus30.pmv_discomfort_h": {
+  "value": 31.171296296296298,
+  "ci_low": 25.96736111111111,
+  "ci_high": 36.9724537037037,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_sim_plus30.lux_lt300_frac": {
+  "value": 0.07846769171712029,
+  "ci_low": 0.06480261944700554,
+  "ci_high": 0.09300176214832635,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_sim_plus30.peak_kw": {
+  "value": 2.066818119129206,
+  "ci_low": 2.025316450376705,
+  "ci_high": 2.1075346867591334,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_sim_plus30.ctrl_energy_saving_vs_B0": {
+  "value": -0.6070219055100039,
+  "ci_low": -0.6342437311833373,
+  "ci_high": -0.5819921567994849,
+  "n_seeds": 3,
+  "source_file": "T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ctrl.PALACE_sim_plus30.ctrl_energy_saving_vs_B1": {
+  "value": -1.4066621080292874,
+  "ci_low": -1.5812235861153516,
+  "ci_high": -1.232885526140647,
+  "n_seeds": 3,
+  "source_file": "T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "test.PALACE vs B1 energy": {
+  "value": 0.10502344918864964,
+  "ci_low": 0.09644782517715238,
+  "ci_high": 0.11302988526058834,
+  "n_seeds": 54,
+  "source_file": "results/tables/prereg_tests.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "test.PALACE vs B1 comfort": {
+  "value": -0.11067964553889852,
+  "ci_low": -0.12163574303182928,
+  "ci_high": -0.09961986819998893,
+  "n_seeds": 54,
+  "source_file": "results/tables/prereg_tests.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "test.PALACE vs B2 energy": {
+  "value": 0.12159048814413094,
+  "ci_low": 0.11091452628708819,
+  "ci_high": 0.13180001049322146,
+  "n_seeds": 54,
+  "source_file": "results/tables/prereg_tests.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "test.PALACE vs B2 comfort": {
+  "value": -0.0799800479732686,
+  "ci_low": -0.09341490941052871,
+  "ci_high": -0.06682461714223865,
+  "n_seeds": 54,
+  "source_file": "results/tables/prereg_tests.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "test.APF on vs off leakage": {
+  "value": -0.006198436245981931,
+  "ci_low": -0.008464545542723967,
+  "ci_high": -0.003968218114892508,
+  "n_seeds": 6,
+  "source_file": "results/tables/prereg_tests.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "attack.actuation.B1.actuation+meter.auroc": {
+  "value": 1.0,
+  "ci_low": 1.0,
+  "ci_high": 1.0,
+  "n_seeds": 6,
+  "source_file": "results/tables/actuation_adversary.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "attack.actuation.B1.actuation_only.auroc": {
+  "value": 0.9985515347262243,
+  "ci_low": 0.9972267193505601,
+  "ci_high": 0.9995282714696682,
+  "n_seeds": 6,
+  "source_file": "results/tables/actuation_adversary.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "attack.actuation.B1.meter_only.auroc": {
+  "value": 0.9999996136394546,
+  "ci_low": 0.9999988409183636,
+  "ci_high": 1.0,
+  "n_seeds": 6,
+  "source_file": "results/tables/actuation_adversary.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "attack.actuation.PALACE_apf_off.actuation+meter.auroc": {
+  "value": 0.9994842818623896,
+  "ci_low": 0.9989970699290356,
+  "ci_high": 0.9999674324902571,
+  "n_seeds": 6,
+  "source_file": "results/tables/actuation_adversary.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "attack.actuation.PALACE_apf_off.actuation_only.auroc": {
+  "value": 0.9968750328819119,
+  "ci_low": 0.9953517974694557,
+  "ci_high": 0.9981909327992988,
+  "n_seeds": 6,
+  "source_file": "results/tables/actuation_adversary.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "attack.actuation.PALACE_apf_off.meter_only.auroc": {
+  "value": 0.9983842562657838,
+  "ci_low": 0.9964571253381541,
+  "ci_high": 0.9998837921100252,
+  "n_seeds": 6,
+  "source_file": "results/tables/actuation_adversary.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "attack.actuation.PALACE_e2_a0.5.actuation+meter.auroc": {
+  "value": 0.9960576642244671,
+  "ci_low": 0.9946309844451195,
+  "ci_high": 0.9975471524804064,
+  "n_seeds": 6,
+  "source_file": "results/tables/actuation_adversary.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "attack.actuation.PALACE_e2_a0.5.actuation_only.auroc": {
+  "value": 0.7688713104088154,
+  "ci_low": 0.698098514449535,
+  "ci_high": 0.8388379990953582,
+  "n_seeds": 6,
+  "source_file": "results/tables/actuation_adversary.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "attack.actuation.PALACE_e2_a0.5.meter_only.auroc": {
+  "value": 0.9828414782262952,
+  "ci_low": 0.9771926985669642,
+  "ci_high": 0.9888968022116935,
+  "n_seeds": 6,
+  "source_file": "results/tables/actuation_adversary.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "attack.actuation.PALACE_e2_a2.actuation+meter.auroc": {
+  "value": 0.9964285766338007,
+  "ci_low": 0.9958230408631884,
+  "ci_high": 0.9972350385129025,
+  "n_seeds": 6,
+  "source_file": "results/tables/actuation_adversary.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "attack.actuation.PALACE_e2_a2.actuation_only.auroc": {
+  "value": 0.7707614086647744,
+  "ci_low": 0.7035516550368149,
+  "ci_high": 0.8369024233209803,
+  "n_seeds": 6,
+  "source_file": "results/tables/actuation_adversary.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "attack.actuation.PALACE_e2_a2.meter_only.auroc": {
+  "value": 0.9835411168678679,
+  "ci_low": 0.9778959458942688,
+  "ci_high": 0.989029711613041,
+  "n_seeds": 6,
+  "source_file": "results/tables/actuation_adversary.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "attack.actuation.PALACE_e2_a8.actuation+meter.auroc": {
+  "value": 0.9963850637393984,
+  "ci_low": 0.994923027700961,
+  "ci_high": 0.9975950216193759,
+  "n_seeds": 6,
+  "source_file": "results/tables/actuation_adversary.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "attack.actuation.PALACE_e2_a8.actuation_only.auroc": {
+  "value": 0.8255678808814894,
+  "ci_low": 0.770932869367606,
+  "ci_high": 0.878893881965397,
+  "n_seeds": 6,
+  "source_file": "results/tables/actuation_adversary.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "attack.actuation.PALACE_e2_a8.meter_only.auroc": {
+  "value": 0.9868770816997544,
+  "ci_low": 0.9824815930775972,
+  "ci_high": 0.9911172149460149,
+  "n_seeds": 6,
+  "source_file": "results/tables/actuation_adversary.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "attack.mia.central.epsinf.auc": {
+  "value": 0.5256469877360536,
+  "ci_low": 0.4933206813825442,
+  "ci_high": 0.5576078953022229,
+  "n_seeds": 3,
+  "source_file": "results/tables/mia_loss_threshold.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "attack.mia.dpfedavg.eps0.5.auc": {
+  "value": 0.5343445518825575,
+  "ci_low": 0.46202462872473404,
+  "ci_high": 0.6046287625038473,
+  "n_seeds": 1,
+  "source_file": "results/tables/mia_loss_threshold.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "attack.mia.dpfedavg.eps2.0.auc": {
+  "value": 0.5325185391199563,
+  "ci_low": 0.49092500459059796,
+  "ci_high": 0.5735106187000478,
+  "n_seeds": 3,
+  "source_file": "results/tables/mia_loss_threshold.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "attack.mia.dpfedavg.eps8.0.auc": {
+  "value": 0.523561358196727,
+  "ci_low": 0.4828991323901841,
+  "ci_high": 0.5629704685320908,
+  "n_seeds": 3,
+  "source_file": "results/tables/mia_loss_threshold.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "attack.mia.dpfedper.eps0.5.auc": {
+  "value": 0.5308830850201408,
+  "ci_low": 0.4431686105952689,
+  "ci_high": 0.6222575176977531,
+  "n_seeds": 1,
+  "source_file": "results/tables/mia_loss_threshold.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "attack.mia.dpfedper.eps2.0.auc": {
+  "value": 0.5152070291178796,
+  "ci_low": 0.47986544133426895,
+  "ci_high": 0.5514533163090026,
+  "n_seeds": 3,
+  "source_file": "results/tables/mia_loss_threshold.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "attack.mia.dpfedper.eps8.0.auc": {
+  "value": 0.5153891655742412,
+  "ci_low": 0.47851476035329227,
+  "ci_high": 0.554115773052914,
+  "n_seeds": 3,
+  "source_file": "results/tables/mia_loss_threshold.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "attack.mia.fedavg.epsinf.auc": {
+  "value": 0.5101399408136185,
+  "ci_low": 0.4723250076750378,
+  "ci_high": 0.5464334033079148,
+  "n_seeds": 3,
+  "source_file": "results/tables/mia_loss_threshold.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "attack.mia.local.epsinf.auc": {
+  "value": 0.5498878699823877,
+  "ci_low": 0.5104625076564595,
+  "ci_high": 0.5884479667077217,
+  "n_seeds": 3,
+  "source_file": "results/tables/mia_loss_threshold.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "attack.lira.scone.eps2.auc": {
+  "value": 0.537238624794424,
+  "ci_low": null,
+  "ci_high": null,
+  "n_seeds": null,
+  "source_file": "results/tables/mia_lira_lite.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "attack.lira.scone.eps8.auc": {
+  "value": 0.4843762236666927,
+  "ci_low": null,
+  "ci_high": null,
+  "n_seeds": null,
+  "source_file": "results/tables/mia_lira_lite.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "attack.lira.scone.epsinf.auc": {
+  "value": 0.5342430887305191,
+  "ci_low": null,
+  "ci_high": null,
+  "n_seeds": null,
+  "source_file": "results/tables/mia_lira_lite.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "attack.lira.ac1.eps2.auc": {
+  "value": 0.5011680000000001,
+  "ci_low": null,
+  "ci_high": null,
+  "n_seeds": null,
+  "source_file": "results/tables/mia_lira_lite.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "attack.lira.ac1.eps8.auc": {
+  "value": 0.510688,
+  "ci_low": null,
+  "ci_high": null,
+  "n_seeds": null,
+  "source_file": "results/tables/mia_lira_lite.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "attack.lira.ac1.epsinf.auc": {
+  "value": 0.486224,
+  "ci_low": null,
+  "ci_high": null,
+  "n_seeds": null,
+  "source_file": "results/tables/mia_lira_lite.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "pareto.n_nondominated": {
+  "value": 4.0,
+  "ci_low": null,
+  "ci_high": null,
+  "n_seeds": null,
+  "source_file": "results/tables/pareto.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "pareto.hypervolume_all_configs": {
+  "value": 2.4338459949888263,
+  "ci_low": null,
+  "ci_high": null,
+  "n_seeds": null,
+  "source_file": "results/tables/pareto.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "sustain.saving_kwh_per_zone_day_vs_B1": {
+  "value": -2.6255862297162413,
+  "ci_low": -2.8257471315147087,
+  "ci_high": -2.4111956294288093,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "sustain.training_kwh_one_off": {
+  "value": 0.0037972353324945266,
+  "ci_low": null,
+  "ci_high": null,
+  "n_seeds": null,
+  "source_file": "results/tables/T6_compute.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "sustain.comm_kwh_one_off_ASSUMED": {
+  "value": 0.0018044999999999997,
+  "ci_low": null,
+  "ci_high": null,
+  "n_seeds": null,
+  "source_file": "assumption 0.06 kWh/GB (unverified)",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "sustain.PALACE_e2_a8.saving_kwh_per_zone_day_vs_B1": {
+  "value": -2.6255862297162413,
+  "ci_low": -2.8257471315147087,
+  "ci_high": -2.4111956294288093,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "sustain.PALACE_e2_a8.carbon_avoided_kg_per_zone_year": {
+  "value": -696.7124339863532,
+  "ci_low": -974.7739691080111,
+  "ci_high": -447.8759713729571,
+  "n_seeds": 3,
+  "source_file": "grid factor unverified; +-30% band",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "sustain.PALACE_apf_off.saving_kwh_per_zone_day_vs_B1": {
+  "value": 0.5460681344509863,
+  "ci_low": 0.48115210490585286,
+  "ci_high": 0.6095188743585137,
+  "n_seeds": 3,
+  "source_file": "results/tables/T4_headline.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "sustain.PALACE_apf_off.carbon_avoided_kg_per_zone_year": {
+  "value": 144.9019098172415,
+  "ci_low": 89.3732817581048,
+  "ci_high": 210.26054517702445,
+  "n_seeds": 3,
+  "source_file": "grid factor unverified; +-30% band",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "sustain.PALACE_apf_off.payback_days.4zones": {
+  "value": 0.002564577100862367,
+  "ci_low": null,
+  "ci_high": null,
+  "n_seeds": null,
+  "source_file": "F11",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "sustain.PALACE_apf_off.payback_days.40zones": {
+  "value": 0.0002564577100862367,
+  "ci_low": null,
+  "ci_high": null,
+  "n_seeds": null,
+  "source_file": "F11",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ladder.R1.auroc": {
+  "value": 0.8973068094068033,
+  "ci_low": null,
+  "ci_high": null,
+  "n_seeds": null,
+  "source_file": "results/tables/granularity_ladder.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ladder.R1.mia_auc": {
+  "value": 0.5104209739463407,
+  "ci_low": null,
+  "ci_high": null,
+  "n_seeds": null,
+  "source_file": "results/tables/granularity_ladder.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ladder.R2.auroc": {
+  "value": 0.8957738002907978,
+  "ci_low": null,
+  "ci_high": null,
+  "n_seeds": null,
+  "source_file": "results/tables/granularity_ladder.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ladder.R2.mia_auc": {
+  "value": 0.5064765938094938,
+  "ci_low": null,
+  "ci_high": null,
+  "n_seeds": null,
+  "source_file": "results/tables/granularity_ladder.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ladder.R3_eps1.auroc": {
+  "value": 0.8857775981913226,
+  "ci_low": null,
+  "ci_high": null,
+  "n_seeds": null,
+  "source_file": "results/tables/granularity_ladder.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ladder.R3_eps1.mia_auc": {
+  "value": 0.5195503673209937,
+  "ci_low": null,
+  "ci_high": null,
+  "n_seeds": null,
+  "source_file": "results/tables/granularity_ladder.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ladder.R3_eps4.auroc": {
+  "value": 0.8963499724266901,
+  "ci_low": null,
+  "ci_high": null,
+  "n_seeds": null,
+  "source_file": "results/tables/granularity_ladder.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ },
+ "ladder.R3_eps4.mia_auc": {
+  "value": 0.5103249648697908,
+  "ci_low": null,
+  "ci_high": null,
+  "n_seeds": null,
+  "source_file": "results/tables/granularity_ladder.csv",
+  "config_hash": "9280dee6",
+  "run_mode": "fast"
+ }
+}

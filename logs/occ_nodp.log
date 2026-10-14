@@ -1,0 +1,15 @@
+central inf 3 AUROC 0.8985 wall 45.2 eps_spent {}
+central inf 4 AUROC 0.8961 wall 51.2 eps_spent {}
+/home/deeraj/AIFS_PROJ/palace/src/palace/fl/engine.py:47: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)
+  self.opt.zero_grad(); loss = loss_fn(self.model(X), Y, M, A, t["focal_weight"], t["focal_gamma"]); loss.backward(); self.opt.step(); tot += float(loss); nb += 1
+local inf 0 AUROC 0.8992 wall 80.2 eps_spent {}
+local inf 1 AUROC 0.8987 wall 97.7 eps_spent {}
+local inf 2 AUROC 0.8946 wall 98.0 eps_spent {}
+local inf 3 AUROC 0.8987 wall 90.6 eps_spent {}
+local inf 4 AUROC 0.8972 wall 75.0 eps_spent {}
+fedavg inf 0 AUROC 0.8886 wall 54.5 eps_spent {'ac1': inf, 'ac3': inf}
+fedavg inf 1 AUROC 0.8884 wall 48.8 eps_spent {'ac1': inf, 'ac3': inf}
+fedavg inf 2 AUROC 0.8866 wall 53.8 eps_spent {'ac1': inf, 'ac3': inf}
+fedavg inf 3 AUROC 0.8877 wall 44.3 eps_spent {'ac1': inf, 'ac3': inf}
+fedavg inf 4 AUROC 0.8893 wall 52.3 eps_spent {'ac1': inf, 'ac3': inf}

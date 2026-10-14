@@ -1,0 +1,7 @@
+# fast grid (one representative week per season; Surat 2019 weather). See results/GRID_DESIGN.md
+sites: [ac1, ac3, ac4, scone, tokyo, stair01]
+seasons: [summer, monsoon, winter]
+seeds: [0, 1, 2]
+eps_train: [0.5, 2, 8]
+eps_act: [0.5, 2, 8]
+default: {eps_train: 2, eps_act: 8}

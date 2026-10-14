@@ -30,7 +30,8 @@ class Zone:
 
     def step(self, x, dim, cct, sp, t):
         """x (B,2); dim,cct,sp (B,) or scalars; t int index. Returns x_next (B,2) and dict of (B,) outputs."""
-        c = self.c; z = c["zone"]; To = self.inp["To"][t]; npl = self.inp["n_people"][t]; met = self.inp["met"][t]
+        c = self.c; z = c["zone"]; To = self.inp["To"][t]; met = self.inp["met"][t]
+        npl = self.inp["n_people"][t] if getattr(self, "_n_plan", None) is None else self._n_plan[t - self._t0]
         occ = npl > 0
         p_l = lighting.power_w(dim, cct, self.area, c["lighting"])
         p_e = self.area * (c["equipment"]["w_per_m2_occupied"] if occ else c["equipment"]["w_per_m2_standby"])
@@ -42,7 +43,7 @@ class Zone:
         q_inf = self.ua_inf_per_ach * ach * (To - Ta)
         q_air = z["solar_frac_air"] * sol + (1 - z["internal_frac_mass"]) * q_int + q_inf
         q_mass = (1 - z["solar_frac_air"]) * sol + z["internal_frac_mass"] * q_int
-        u = np.stack([np.full_like(Ta, To), np.zeros_like(Ta), q_air, q_mass], axis=-1)
+        zeros = np.zeros_like(Ta); u = np.stack([np.full_like(Ta, To), zeros, q_air + zeros, q_mass + zeros], axis=-1)
         x_free = self.th.step(x, u)
         sp = np.broadcast_to(np.asarray(sp, float), Ta.shape)
         qc = hvac.required_cooling(x_free[:, 0], self.g, sp, c["ac"])
@@ -52,11 +53,12 @@ class Zone:
         lux = lighting.total_lux(np.broadcast_to(np.asarray(dim, float), Ta.shape), self.lux_day(t), c["lighting"], occ)
         return xn, dict(Ta=xn[:, 0], Tm=xn[:, 1], lux=lux, P_light=p_l, P_hvac=p_h, P_equip=np.full_like(Ta, p_e), Qcool=qc, Q_people=np.full_like(Ta, q_p))
 
-    def rollout(self, x0, dim, cct, sp, t0):
+    def rollout(self, x0, dim, cct, sp, t0, n_plan=None):
         """dim,cct,sp: (B,H). Returns dict of (B,H) arrays plus final state."""
+        self._n_plan, self._t0 = n_plan, t0
         x = np.array(x0, float); B, H = np.shape(dim); x = np.broadcast_to(x, (B, 2)).copy(); out = {}
         for h in range(H):
             x, o = self.step(x, dim[:, h], cct[:, h], sp[:, h], t0 + h)
             for k, v in o.items(): out.setdefault(k, np.empty((B, H)))[:, h] = v
-        out["x_final"] = x
+        out["x_final"] = x; self._n_plan = None
         return out

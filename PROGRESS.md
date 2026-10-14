@@ -12,3 +12,8 @@
 - tests/test_sim.py: 9 passed (adiabatic conservation, analytic steady state, monotonicity, no-NaN, batch==loop 1e-9, perturbation, occupants, PMV ref).
 - Site-year rollout ~2.5-2.9 s on CPU (limit 3 s; tokyo 2.9 s).
 - B0/B1 EUI 70-144 kWh/m2/yr, all in BDG2 p10-p90 (results/tables/sim_calibration.csv, F3_sim_validation.pdf). Weather: Surat+Delhi 2018-2023 downloaded.
+## Phases 4-8 (fast mode, done 2026-10-14)
+- Forecaster: 33 runs (central/local/fedavg 5 seeds; DP 3 seeds, eps 0.5 seed 0). Causality bug found+fixed. AUROC central 0.898; DP-FedAvg eps8 0.876; DP-FedPer eps8 0.858 (eps0.5: 0.691).
+- Controller grid: 1116 cells; attacks: MIA/LiRA ~chance; actuation adversary: APF cuts actuation-only leakage but meter leaks (AUROC 0.98).
+- Pre-registered H1-H3 FAIL for APF-on default; APF-off PALACE saves 20.6% vs B1. See results/RESULTS_SUMMARY.md.
+- Cut: second climate, B6 PPO, ablations of clients/horizon, R4, S1-S4, full-year, leave-one-site-out. 23 tests pass.
