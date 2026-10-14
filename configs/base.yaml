@@ -8,5 +8,10 @@ features:
   min_usable_days_home: 50     # DECISION D006 (homes are short recordings)
 splits: {train: 0.70, val: 0.15, test: 0.15, gap_days: 7}
 carbon:
-  grid_factor_kg_per_kwh: null  # TO VERIFY online (CEA CO2 baseline database); unverified until set
+  # POINT ESTIMATE: 0.727 kgCO2/kWh = CEA CO2 Baseline Database v20.0 (Dec 2024), FY2023-24, weighted average (net effective injection).
+  # Source actually read: Climatiq listing of CEA v20.0 (https://www.climatiq.io/data/source/government-of-india-_-central-electricity-authority) via search summary.
+  # STATUS: UNVERIFIED against the primary CEA PDF (cea.nic.in PDFs return a login page); CEA v21/v22 revised FY2023-24 retroactively.
+  grid_factor_kg_per_kwh: 0.727
+  grid_factor_status: unverified_secondary_source
+  sensitivity_frac: 0.30
   fallback_range: [0.6, 0.9]
